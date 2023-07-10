@@ -1,0 +1,49 @@
+/*------------------------
+     universal style 
+-------------------------*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------
+    Sheared Style 
+ --------------------*/
+.btn-primary {
+    color: #FFF;
+    background-color: tomato;
+    border: 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*--------------------
+     Header style 
+ -------------------*/
+.Header-Section {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 0 100px;
+
+}
+
+.header-discription {
+    max-width: 608px;
+    padding-right: 20px;
+}
+
+.header-heading {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.Header-Section img {
+    padding-left: 30px;
+    height: 100%;
+}

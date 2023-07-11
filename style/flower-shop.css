@@ -9,6 +9,16 @@ body {
 /*----------------------
     Shared Style 
  --------------------*/
+.common-Section {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+
+
+}
+
 .btn-primary {
     color: #FFF;
     background-color: tomato;
@@ -28,18 +38,26 @@ body {
     line-height: 30px;
 }
 
+.discription-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 50px;
+}
+
+.discription-div h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+
+}
+
 /*--------------------
      Header style 
  -------------------*/
-.Header-Section {
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(229, 84, 115, 0.10);
 
-
-}
 
 .header-discription {
     max-width: 708px;
@@ -64,7 +82,7 @@ body {
 }
 
 /*------- header image style --------*/
-.Header-Section img {
+.header-img {
     padding-left: 30px;
     height: 613px;
     width: 573px;
@@ -73,21 +91,7 @@ body {
 /*---------------------- 
 futures flower section  
 ------------------------*/
-.futures-discription {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 80px 0 50px;
-}
 
-.futures-discription h3 {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-    margin: 0;
-
-}
 
 .card-div {
     display: flex;
@@ -97,7 +101,7 @@ futures flower section
 .card {
     text-align: center;
     width: 464px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 .f-flowers-img {
@@ -125,3 +129,7 @@ futures flower section
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+/*----------------------
+   ofer section 
+-------------------------*/

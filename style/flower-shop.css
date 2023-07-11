@@ -7,7 +7,7 @@ body {
 }
 
 /*----------------------
-    Sheared Style 
+    Shared Style 
  --------------------*/
 .btn-primary {
     color: #FFF;
@@ -19,6 +19,15 @@ body {
     font-weight: 700;
 }
 
+.discription {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /*--------------------
      Header style 
  -------------------*/
@@ -28,12 +37,12 @@ body {
     justify-content: center;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
-    padding: 0 100px;
+
 
 }
 
 .header-discription {
-    max-width: 608px;
+    max-width: 708px;
     padding-right: 20px;
 }
 
@@ -41,9 +50,78 @@ body {
     color: #272727;
     font-size: 80px;
     font-weight: 800;
+    margin-bottom: 32px;
+
 }
 
+.header-discription p {
+    max-width: 634px;
+    margin-bottom: 32px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/*------- header image style --------*/
 .Header-Section img {
     padding-left: 30px;
-    height: 100%;
+    height: 613px;
+    width: 573px;
+}
+
+/*---------------------- 
+futures flower section  
+------------------------*/
+.futures-discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 80px 0 50px;
+}
+
+.futures-discription h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+
+}
+
+.card-div {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    width: 464px;
+    margin-right: 20px;
+}
+
+.f-flowers-img {
+    width: 464px;
+    height: 428px;
+    border-radius: 300px 300px 0px 0px;
+    padding-bottom: 0;
+}
+
+
+
+.f-flowers-img img {
+    padding-top: 50px;
+    height: 88.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 62%;
+}
+
+.card-flower-name {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
